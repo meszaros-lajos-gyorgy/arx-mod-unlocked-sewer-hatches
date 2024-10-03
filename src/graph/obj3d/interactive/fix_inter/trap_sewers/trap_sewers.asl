@@ -15,7 +15,6 @@ ON INIT {
 }
 
 ON ACTION {
-  HEROSAY §lockpickability
   IF (§unlock == 0) {
     PLAY "Door_lock"
     ACCEPT
